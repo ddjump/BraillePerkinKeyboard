@@ -12,6 +12,8 @@
 		930B95BA2019805C00868E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930B95B82019805C00868E1B /* Main.storyboard */; };
 		930B95BC2019805C00868E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930B95BB2019805C00868E1B /* Assets.xcassets */; };
 		930B95BF2019805C00868E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930B95BD2019805C00868E1B /* LaunchScreen.storyboard */; };
+		930B95C72019887600868E1B /* TouchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B95C62019887600868E1B /* TouchableView.swift */; };
+		930B95C920198E8000868E1B /* TouchSpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930B95C820198E8000868E1B /* TouchSpotView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		930B95BB2019805C00868E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930B95BE2019805C00868E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930B95C02019805C00868E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930B95C62019887600868E1B /* TouchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableView.swift; sourceTree = "<group>"; };
+		930B95C820198E8000868E1B /* TouchSpotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchSpotView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				930B95B42019805C00868E1B /* AppDelegate.swift */,
 				930B95B62019805C00868E1B /* ViewController.swift */,
 				930B95B82019805C00868E1B /* Main.storyboard */,
+				930B95C62019887600868E1B /* TouchableView.swift */,
+				930B95C820198E8000868E1B /* TouchSpotView.swift */,
 				930B95BB2019805C00868E1B /* Assets.xcassets */,
 				930B95BD2019805C00868E1B /* LaunchScreen.storyboard */,
 				930B95C02019805C00868E1B /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930B95C72019887600868E1B /* TouchableView.swift in Sources */,
 				930B95B72019805C00868E1B /* ViewController.swift in Sources */,
+				930B95C920198E8000868E1B /* TouchSpotView.swift in Sources */,
 				930B95B52019805C00868E1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
